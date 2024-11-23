@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./imgs/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item--close">
+                        <button class="header__nav-close" aria-label="Close navigation menu">X</button>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./about.html" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./projects.html" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./articles.html" class="header__nav-link">Articles</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="header__nav-toggle-label">
+                <span class="header__menu-text">Menu</span>
+            </label>
+        </div>
+        <a href="./contact" class="header__cta header__cta--hire-me">Hire Me</a>
+    </header>
+
+    <main class="main">
+        <section class="articles">
+            <div class="articles__header">
+                <h1 class="articles__title">Articles</h1>
+                <form class="articles__search">
+                    <label for="search" class="articles__search-label">Search Articles</label>
+                    <input type="search" id="search" name="search" class="articles__search-input" placeholder="Search articles...">
+                </form>
+            </div>
+
+            <div class="articles__list">
+                <article class="article-card">
+                    <header class="article-card__header">
+                        <h2 class="article-card__title">The Art of Programming: A Journey Through Code</h2>
+                        <time class="article-card__date" datetime="2024-11-23">23 Nov 2024</time>
+                    </header>
+                    <p class="article-card__content">
+                        Programming is more than just a technical skill; it is an art form that combines creativity, logic, and problem-solving. As the world becomes increasingly digital, the ability to write code has never been more valuable. This article explores the foundational concepts of programming, its significance in today's world, and some tips for those looking to embark on their coding journey.
+                    </p>
+                    <a href="./article2.html" class="article-card__button">READ</a>
+                </article>
+
+                <article class="article-card">
+                    <header class="article-card__header">
+                        <h2 class="article-card__title">Understanding C: The Foundation of Modern Programming</h2>
+                        <time class="article-card__date" datetime="2024-11-21">21 Nov 2024</time>
+                    </header>
+                    <p class="article-card__content">
+                        C is a powerful general-purpose programming language that has had a profound impact on computer science and programming as a whole. First developed in the early 1970s by Dennis Ritchie at Bell Labs, C has become a cornerstone for many modern programming languages and is widely used for system and application development. This article explores the features, history, and significance of C, as well as its application in contemporary programming.
+                    </p>
+                    <a href="./article1.html" class="article-card__button">READ</a>
+                </article>
+
+                <article class="article-card">
+                    <header class="article-card__header">
+                        <h2 class="article-card__title">Exploring Philosophy: The Quest for Understanding</h2>
+                        <time class="article-card__date" datetime="2024-11-20">20 Nov 2024</time>
+                    </header>
+                    <p class="article-card__content">
+                        Philosophy, often regarded as the "love of wisdom," is a profound intellectual discipline that has shaped human thought for centuries. It encompasses a wide range of topics, from existence and knowledge to ethics and the nature of reality. By questioning fundamental aspects of life, philosophy encourages critical thinking and a deeper understanding of ourselves and the world around us.
+                    </p>
+                    <a href="./article3.html" class="article-card__button">READ</a>
+                </article>
+
+                <article class="article-card">
+                    <header class="article-card__header">
+                        <h2 class="article-card__title">React: Building Dynamic User Interfaces</h2>
+                        <time class="article-card__date" datetime="2024-11-20">20 Nov 2024</time>
+                    </header>
+                    <p class="article-card__content">
+                        React is a powerful JavaScript library for building dynamic and interactive user interfaces (UIs). Developed by Facebook, it has revolutionized the way developers approach front-end development by encouraging the creation of reusable UI components. This article explores the core concepts of React, its benefits, and tips for getting started with React development.
+                    </p>
+                    <a href="./article4.html" class="article-card__button">READ</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Made by <span class="footer__author">Dagmawi Kassa</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./imgs/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item--close">
+                        <button class="header__nav-close" aria-label="Close navigation menu">X</button>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./about.html" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./projects.html" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./articles.html" class="header__nav-link">Articles</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="header__nav-toggle-label">
+                <span class="header__menu-text">Menu</span>
+            </label>
+        </div>
+        <a href="./contact" class="header__cta header__cta--hire-me">Hire Me</a>
+    </header>
+
+    <main class="main">
+        <section class="main__intro">
+            <h1 class="main__title">About <span class="main__title-rotate">me</span></h1>
+            <div class="main__intro-content">
+                <p class="main__intro-text">Welcome to my About page! Here you'll find a bit about me, my education, and my hobbies.</p>
+                <ul class="main__intro-links">
+                    <li class="main__intro-item">
+                        <a href="#aboutme" class="main__intro-link">A bit about me</a>
+                    </li>
+                    <li class="main__intro-item">
+                        <a href="#education" class="main__intro-link">Education</a>
+                    </li>
+                    <li class="main__intro-item">
+                        <a href="#hobbies" class="main__intro-link">Hobbies</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="about" id="aboutme">
+            <h2 class="about__title">A Bit About Me</h2>
+            <div class="about__details">
+                <article class="about__item about__item--who-i-am">
+                    <h3 class="about__item-title">Who I Am</h3>
+                    <p class="about__item-text">I am a passionate developer who loves solving problems and building creative solutions.</p>
+                </article>
+                <article class="about__item about__item--interests">
+                    <h3 class="about__item-title">What Interests Me</h3>
+                    <p class="about__item-text">I’m deeply interested in web development, AI, and constantly learning new technologies.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="education__title">Education</h2>
+            <div class="education__timeline">
+                <article class="education__entry education__entry--primary-school">
+                    <h3 class="education__entry-title">1st - 8th Grade</h3>
+                    <p class="education__entry-text">I built my foundational skills during these years and developed a love for computers.</p>
+                </article>
+                <article class="education__entry education__entry--high-school">
+                    <h3 class="education__entry-title">9th - 12th Grade</h3>
+                    <p class="education__entry-text">High school was where I discovered programming and pursued it with dedication.</p>
+                </article>
+                <article class="education__entry education__entry--university">
+                    <h3 class="education__entry-title">1st Year - Current</h3>
+                    <p class="education__entry-text">Currently pursuing my degree in Computer Science while working on exciting projects.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="hobbies" id="hobbies">
+            <h2 class="hobbies__title">Hobbies</h2>
+            <div class="hobbies__list">
+                <article class="hobbies__item hobbies__item--programming">
+                    <h3 class="hobbies__item-title">Programming</h3>
+                    <p class="hobbies__item-text">I enjoy creating applications, experimenting with new tools, and contributing to open source.</p>
+                </article>
+                <article class="hobbies__item hobbies__item--reading">
+                    <h3 class="hobbies__item-title">Reading</h3>
+                    <p class="hobbies__item-text">Reading keeps me inspired, from tech blogs to novels and research papers.</p>
+                </article>
+                <article class="hobbies__item hobbies__item--movies">
+                    <h3 class="hobbies__item-title">Movies</h3>
+                    <p class="hobbies__item-text">I love watching movies, especially science fiction and thrillers that spark my imagination.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p class="footer__text">Made by <span class="footer__author">Dagmawi Kassa</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>

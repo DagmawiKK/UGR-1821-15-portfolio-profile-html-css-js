@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./imgs/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item--close">
+                        <button class="header__nav-close" aria-label="Close navigation menu">X</button>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./about.html" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./projects.html" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./articles.html" class="header__nav-link">Articles</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="header__nav-toggle-label">
+                <span class="header__menu-text">Menu</span>
+            </label>
+        </div>
+        <a href="./contact" class="header__cta header__cta--hire-me">Hire Me</a>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <figure class="hero__figure">
+                <img src="./imgs/photo.png" alt="A portrait of Dagmawi Kassa" class="hero__photo">
+                <figcaption class="hero__caption">Dagmawi Kassa</figcaption>
+            </figure>
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Hi! I am Dagmawi Kassa, a Software Engineering student at AAU.
+                </h1>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Made by <span class="footer__author">Dagmawi Kassa</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>

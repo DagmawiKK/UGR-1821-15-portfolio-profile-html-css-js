@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./imgs/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item--close">
+                        <button class="header__nav-close" aria-label="Close navigation menu">X</button>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./about.html" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./projects.html" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./articles.html" class="header__nav-link">Articles</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="header__nav-toggle-label">
+                <span class="header__menu-text">Menu</span>
+            </label>
+        </div>
+        <a href="./contact" class="header__cta header__cta--hire-me">Hire Me</a>
+    </header>
+    <main class="main">
+        <section class="main__intro">
+            <h1 class="main__title">Projects</h1>
+        </section>
+        <section class="projects">
+            <div class="projects__grid">
+                <article class="card">
+                    <div class="card__content">
+                        <figure class="card__figure">
+                            <img src="images/monty.png" alt="Monty Scripting Language Image" class="card__image">
+                            <figcaption class="card__caption">Monty Scripting Language</figcaption>
+                        </figure>
+                        <a href="https://github.com/DagmawiKK/monty" class="card__button">VIEW CODE</a>
+                    </div>
+                    <div class="card__tags">
+                        <i class="fa-solid fa-c card__icon"></i>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__content">
+                        <figure class="card__figure">
+                            <img src="images/simple_shell.png" alt="Simple Shell program image" class="card__image">
+                            <figcaption class="card__caption">Simple Shell Program</figcaption>
+                        </figure>
+                        <a href="https://github.com/anania-gt/simple_shell" class="card__button">VIEW CODE</a>
+                    </div>
+                    <div class="card__tags">
+                        <i class="fa-solid fa-c card__icon"></i>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__content">
+                        <figure class="card__figure">
+                            <img src="images/etch_a_sketch.png" alt="Etch a sketch website image" class="card__image">
+                            <figcaption class="card__caption">Etch a sketch website</figcaption>
+                        </figure>
+                        <div class="card__actions">
+                            <a href="https://dagmawikk.github.io/etch-a-sketch/" class="card__button">LIVE PREVIEW</a>
+                            <a href="https://github.com/DagmawiKK/monty" class="card__button">VIEW CODE</a>
+                        </div>
+                    </div>
+                    <div class="card__tags">
+                        <i class="fa-brands fa-html5 card__icon"></i>
+                        <i class="fa-brands fa-css3-alt card__icon"></i>
+                        <i class="fa-brands fa-js card__icon"></i>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__content">
+                        <figure class="card__figure">
+                            <img src="images/calculator.png" alt="Calculator Web App image" class="card__image">
+                            <figcaption class="card__caption">Calculator Web App</figcaption>
+                        </figure>
+                        <div class="card__actions">
+                            <a href="https://dagmawikk.github.io/calculator/" class="card__button">LIVE PREVIEW</a>
+                            <a href="https://github.com/DagmawiKK/calculator" class="card__button">VIEW CODE</a>
+                        </div>
+                    </div>
+                    <div class="card__tags">
+                        <i class="fa-brands fa-html5 card__icon"></i>
+                        <i class="fa-brands fa-css3-alt card__icon"></i>
+                        <i class="fa-brands fa-js card__icon"></i>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__content">
+                        <figure class="card__figure">
+                            <img src="images/todolist.png" alt="ToDoList App Code image" class="card__image">
+                            <figcaption class="card__caption">ToDoList App</figcaption>
+                        </figure>
+                        <a href="https://github.com/DagmawiKK/ToDoListApp/tree/main/com/itsc/toDoListApp" class="card__button">VIEW CODE</a>
+                    </div>
+                    <div class="card__tags">
+                        <i class="fa-brands fa-java card__icon"></i>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Made by <span class="footer__author">Dagmawi Kassa</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>

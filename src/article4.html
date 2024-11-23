@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <img src="./imgs/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <span class="header__nav-close">X</span>
+                    <li class="header__nav-item">
+                        <a href="./about.html" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./projects.html" class="header__nav-link">Projects</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./articles.html" class="header__nav-link">Articles</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="header__nav-toggle-label">
+                <span class="header__menu-text">Menu</span>
+            </label>
+        </div>
+        <a href="./contact" class="header__hire-me">Hire Me</a>
+    </header>
+
+    <main>
+        <article>
+            <h1>React: Building Dynamic User Interfaces</h1>
+
+            <section>
+                <h2>Introduction</h2>
+                <p>React is a powerful JavaScript library for building dynamic and interactive user interfaces (UIs). Developed by Facebook, it has revolutionized the way developers approach front-end development by encouraging the creation of reusable UI components. This article explores the core concepts of React, its benefits, and tips for getting started with React development.</p>
+            </section>
+
+            <section>
+                <h2>What is React?</h2>
+                <p>React is a declarative, component-based JavaScript library for building user interfaces, especially for single-page applications where data can change over time. It allows developers to create large web applications that can update and render efficiently in response to data changes.</p>
+            </section>
+
+            <section>
+                <h2>Core Concepts of React</h2>
+                <h3>1. Components</h3>
+                <p>Components are the building blocks of any React application. They encapsulate parts of the UI and can be reused across the application. There are two main types of components:</p>
+                <ul>
+                    <li><strong>Functional Components:</strong> These are simpler and are defined as JavaScript functions.</li>
+                    <li><strong>Class Components:</strong> These have more features and are defined using ES6 class syntax.</li>
+                </ul>
+
+                <h3>2. JSX</h3>
+                <p>JSX (JavaScript XML) is a syntax extension for JavaScript that looks similar to XML or HTML. It allows developers to write UI elements directly within their JavaScript code, making it easier to create and manage complex UIs.</p>
+
+                <h3>3. Props</h3>
+                <p>Props (short for properties) are used to pass data from parent components to child components. They allow components to be dynamic and adaptable to different contexts.</p>
+
+                <h3>4. State</h3>
+                <p>State is a built-in object that allows components to create and manage their own data. Unlike props, which are read-only, state is mutable and can change over time, enabling interactive and dynamic UIs.</p>
+
+                <h3>5. Lifecycle Methods</h3>
+                <p>Lifecycle methods are special methods in class components that allow developers to hook into different stages of a component's lifecycle, such as mounting, updating, and unmounting.</p>
+            </section>
+
+            <section>
+                <h2>Benefits of Using React</h2>
+                <h3>1. Reusable Components</h3>
+                <p>React encourages the creation of reusable components, which improves code organization and reduces duplication. This leads to easier maintenance and scalability of applications.</p>
+
+                <h3>2. Virtual DOM</h3>
+                <p>React uses a Virtual DOM to optimize rendering. Instead of updating the entire real DOM, React only updates the parts that have changed, resulting in faster and more efficient performance.</p>
+
+                <h3>3. Unidirectional Data Flow</h3>
+                <p>React's unidirectional data flow (or one-way data binding) means data flows in a single direction, making it easier to understand and debug applications.</p>
+
+                <h3>4. Strong Community and Ecosystem</h3>
+                <p>React has a large and vibrant community, with a wealth of resources, libraries, and tools available. This ecosystem supports developers in building feature-rich applications more efficiently.</p>
+            </section>
+
+            <section>
+                <h2>Getting Started with React</h2>
+                <h3>1. Set Up Your Development Environment</h3>
+                <p>To start developing with React, you'll need to set up Node.js and npm (Node Package Manager) on your machine. Then, you can create a new React app using Create React App, a convenient command-line tool.</p>
+
+                <h3>2. Learn the Basics</h3>
+                <p>Familiarize yourself with the core concepts of React, including components, JSX, props, state, and lifecycle methods. The official React documentation is an excellent resource for learning these basics.</p>
+
+                <h3>3. Build Simple Projects</h3>
+                <p>Start by building small projects to apply what you've learned. Create simple UIs, forms, and interactive elements to reinforce your understanding of React.</p>
+
+                <h3>4. Use Online Resources</h3>
+                <p>There are numerous free and paid resources available online for learning React:</p>
+                <ul>
+                    <li><strong>Online Courses:</strong> Platforms like Udemy, Coursera, and Codecademy offer structured React courses.</li>
+                    <li><strong>Documentation:</strong> The official React documentation is comprehensive and provides in-depth explanations and examples.</li>
+                </ul>
+
+                <h3>5. Join the Community</h3>
+                <p>Engage with the React community through forums, social media groups, and local meetups. Platforms like GitHub, Stack Overflow, and Reddit are great places to connect with other React developers.</p>
+            </section>
+            
+            <section>
+                <h2>Summary: Key Features and Concepts in React</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Components</strong></td>
+                            <td>Reusable building blocks of a React application. Can be functional or class-based.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>JSX</strong></td>
+                            <td>A syntax extension that allows mixing HTML with JavaScript.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Props</strong></td>
+                            <td>Passes read-only data from parent to child components.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>State</strong></td>
+                            <td>Allows components to manage their own data that can change over time.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lifecycle Methods</strong></td>
+                            <td>Special methods that run at different stages of a component's life cycle.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Conclusion</h2>
+                <p>React has become one of the most popular libraries for building modern web applications. Its component-based architecture, efficient rendering with the Virtual DOM, and strong community support make it an excellent choice for developers looking to create dynamic and maintainable user interfaces. By understanding its core concepts and practicing regularly, you can harness the power of React to build impressive and interactive web applications.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Made by <span class="footer__author">Dagmawi Kassa</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>
