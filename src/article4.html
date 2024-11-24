@@ -7,14 +7,16 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__content">
+        <div class="header__container">
             <div class="header__logo">
-                <img src="./imgs/logo.png" alt="Logo">
+                <img src="./images/logo.png" alt="Logo">
             </div>
             <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <span class="header__nav-close">X</span>
+                    <li class="header__nav-item header__nav-item--close">
+                        <button class="header__nav-close" aria-label="Close navigation menu">X</button>
+                    </li>
                     <li class="header__nav-item">
                         <a href="./about.html" class="header__nav-link">About</a>
                     </li>
@@ -30,7 +32,7 @@
                 <span class="header__menu-text">Menu</span>
             </label>
         </div>
-        <a href="./contact" class="header__hire-me">Hire Me</a>
+        <a href="./contact.html" class="header__cta header__cta--hire-me">Hire Me</a>
     </header>
 
     <main>
@@ -39,6 +41,7 @@
 
             <section>
                 <h2>Introduction</h2>
+                <audio src="./audios/react.mp3" controls>React Components Explained</audio>
                 <p>React is a powerful JavaScript library for building dynamic and interactive user interfaces (UIs). Developed by Facebook, it has revolutionized the way developers approach front-end development by encouraging the creation of reusable UI components. This article explores the core concepts of React, its benefits, and tips for getting started with React development.</p>
             </section>
 
@@ -108,6 +111,11 @@
             
             <section>
                 <h2>Summary: Key Features and Concepts in React</h2>
+                <ol>
+                    <li>Points</li>
+                    <li>thoughts</li>
+                    <li>considerations</li>
+                </ol>
                 <table>
                     <thead>
                         <tr>

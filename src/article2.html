@@ -7,14 +7,16 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__content">
+        <div class="header__container">
             <div class="header__logo">
                 <img src="./imgs/logo.png" alt="Logo">
             </div>
             <input type="checkbox" id="nav-toggle" class="header__nav-toggle">
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <span class="header__nav-close">X</span>
+                    <li class="header__nav-item header__nav-item--close">
+                        <button class="header__nav-close" aria-label="Close navigation menu">X</button>
+                    </li>
                     <li class="header__nav-item">
                         <a href="./about.html" class="header__nav-link">About</a>
                     </li>
@@ -30,7 +32,7 @@
                 <span class="header__menu-text">Menu</span>
             </label>
         </div>
-        <a href="./contact" class="header__hire-me">Hire Me</a>
+        <a href="./contact.html" class="header__cta header__cta--hire-me">Hire Me</a>
     </header>
 
     <main>  
